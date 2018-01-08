@@ -3,8 +3,11 @@ Error: File to import not found or unreadable: reset.
         on line 1 of style.scss
 
 1: @import "reset";
+<<<<<<< HEAD
 2: 
 3: /*# sourceMappingURL=style.scss.map *\/
+=======
+>>>>>>> 16d4b1b19d7246d1ff90bc3b0e1ef0f16f546816
 
 Backtrace:
 style.scss:1
@@ -54,4 +57,8 @@ style.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
+<<<<<<< HEAD
   content: "Error: File to import not found or unreadable: reset.\A         on line 1 of style.scss\A \A 1: @import \"reset\";\A 2: \A 3: /*# sourceMappingURL=style.scss.map */"; }
+=======
+  content: "Error: File to import not found or unreadable: reset.\A         on line 1 of style.scss\A \A 1: @import \"reset\";"; }
+>>>>>>> 16d4b1b19d7246d1ff90bc3b0e1ef0f16f546816
