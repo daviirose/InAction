@@ -143,53 +143,44 @@ html, body {
 
 @media only screen and (min-width: 450px) {
   .Documented-Learning {
-    margin-left: 15%; }
+    margin-left: 30%; }
 
   .Fall-blog {
-    margin-left: 5%; }
-
-  .About-the-author {
-    margin-left: 15%; }
-
-  .Sandbox {
-    margin-left: 10%; } }
+    margin-left: 20%; } }
 @media only screen and (min-width: 550px) {
   .Documented-Learning {
-    margin-left: 5%; }
+    margin-left: 30%; }
 
   .Fall-blog {
-    margin-left: 8%; }
-
-  .About-the-author {
-    margin-left: 1%; } }
+    margin-left: 20%; } }
 @media only screen and (min-width: 600px) {
   .Documented-Learning {
-    margin-left: 2%; }
+    margin-left: 35%; }
 
   .Fall-blog {
-    margin-left: 10%; }
-
-  .Sandbox {
-    margin-left: 0px; } }
+    margin-left: 25%; } }
 @media only screen and (min-width: 650px) {
   .Documented-Learning {
-    margin-left: 2%;
+    margin-left: 30%;
     font-size: 18px; }
 
   .Fall-blog {
+    margin-left: 25%; } }
+@media only screen and (min-width: 750px) {
+  .Documented-Learning {
     margin-left: 10%; }
 
-  .Sandbox {
-    margin-left: 0px; } }
+  .Fall-blog {
+    margin-left: 15%; } }
 @media only screen and (min-width: 800px) {
   .Documented-Learning {
     margin-left: 5%; } }
 @media only screen and (min-width: 850px) {
   .Documented-Learning {
-    margin-left: 2%; }
+    margin-left: 1%; }
 
   .Fall-blog {
-    margin-left: 25%; } }
+    margin-left: 15%; } }
 @media only screen and (min-width: 950px) {
   .Documented-Learning {
     margin-left: 2%; }
