@@ -54,11 +54,14 @@ html, body {
 .header-container {
   width: 100%;
   height: 75px;
-  background-color: navy;
+  background-color: Navy;
   display: inline-block; }
 
 .Documented-Learning {
+  width: auto;
+  height: auto;
   font-size: 16px;
+  font-weight: 600;
   color: skyblue;
   padding: 25px 0px 0px 0px;
   display: inline-block;
@@ -82,36 +85,128 @@ html, body {
   background-color: white; }
 
 .AboutMe-container {
-  display: inline-flex; }
+  display: block; }
 
 .About-the-author-two {
-  width: 85%;
+  width: 65%;
   height: 20px;
   font-size: 12px;
   margin-top: 5%;
-  margin-left: 10%; }
+  margin-left: 35%; }
 
 .Davian {
-  width: 90%;
+  width: 70%;
   height: 20px;
-  margin-left: 10%; }
+  margin-left: 30%; }
 
 .benji {
-  width: 125px;
-  height: 125px;
-  margin-left: 10%;
+  width: 175px;
+  height: 175px;
+  margin-left: 25%;
   display: inline-block; }
 
 .AboutMe {
   width: 90%;
   height: auto;
-  font-size: 11px;
-  display: inline-flex;
-  margin-top: 12%;
-  margin-right: 50px; }
+  font-size: 12px;
+  display: block;
+  margin-top: 5%;
+  margin-left: 5%; }
 
-.block {
+.line {
   width: 100%;
-  display: block; }
+  height: 1px;
+  background-color: navy;
+  margin-top: 15px; }
+
+.Projects-coming-soon {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  margin: 5% 0px 0px 5%; }
+
+.Categories {
+  width: 60%;
+  height: auto;
+  color: skyblue;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 40%;
+  margin-top: 10px; }
+
+.JavaScript {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  margin: 5% 0px 0px 5%;
+  display: inline-block; }
+
+@media only screen and (min-width: 450px) {
+  .Documented-Learning {
+    margin-left: 15%; }
+
+  .Fall-blog {
+    margin-left: 5%; }
+
+  .About-the-author {
+    margin-left: 15%; }
+
+  .Sandbox {
+    margin-left: 10%; } }
+@media only screen and (min-width: 550px) {
+  .Documented-Learning {
+    margin-left: 5%; }
+
+  .Fall-blog {
+    margin-left: 8%; }
+
+  .About-the-author {
+    margin-left: 1%; } }
+@media only screen and (min-width: 600px) {
+  .Documented-Learning {
+    margin-left: 2%; }
+
+  .Fall-blog {
+    margin-left: 10%; }
+
+  .Sandbox {
+    margin-left: 0px; } }
+@media only screen and (min-width: 650px) {
+  .Documented-Learning {
+    margin-left: 2%;
+    font-size: 18px; }
+
+  .Fall-blog {
+    margin-left: 10%; }
+
+  .Sandbox {
+    margin-left: 0px; } }
+@media only screen and (min-width: 800px) {
+  .Documented-Learning {
+    margin-left: 5%; } }
+@media only screen and (min-width: 850px) {
+  .Documented-Learning {
+    margin-left: 2%; }
+
+  .Fall-blog {
+    margin-left: 25%; } }
+@media only screen and (min-width: 950px) {
+  .Documented-Learning {
+    margin-left: 2%; }
+
+  .Fall-blog {
+    margin-left: 25%; } }
+@media only screen and (min-width: 1000px) {
+  .Documented-Learning {
+    margin-left: 2%; }
+
+  .Fall-blog {
+    margin-left: 35%; } }
+@media only screen and (min-width: 1100px) {
+  .Documented-Learning {
+    margin-left: 2%; }
+
+  .Fall-blog {
+    margin-left: 45%; } }
 
 /*# sourceMappingURL=style.css.map */
